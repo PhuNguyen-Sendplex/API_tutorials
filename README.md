@@ -9,7 +9,7 @@ sudo apt-get update && apt-get upgrade -y
 
 ## Install required libraries and packages
 ```bash
-sudo apt-get install libcurl4-openssl-dev libcurlpp-dev wget g++ -y
+sudo apt-get install libcurl4-openssl-dev libcurlpp-dev g++ -y
 ```
 
 
