@@ -1,3 +1,5 @@
+// g++ -o api_login_logout api_login_logout.cpp -lcurl -lcurlpp
+
 #include <iostream>
 #include <curlpp/cURLpp.hpp>
 #include <curlpp/Easy.hpp>
@@ -49,8 +51,6 @@ void login()
     std::cin >> email;
     std::cout << "password:";
     std::cin >> password;
-
-    std::cout << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl;
 
     email_password = "email=" + email + "&password=" + password;
 
