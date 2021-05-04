@@ -6,7 +6,7 @@
 #include <curlpp/Options.hpp>
 #include <curlpp/Exception.hpp>
 
-#include "json.hpp"
+#include "../include/json.hpp"
 
 void logout(std::string& access_token)
 {
