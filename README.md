@@ -21,11 +21,11 @@ git clone https://github.com/PhuNguyen-Sendplex/API_tutorials
 
 ## Compile the code
 ```bash
-g++ -o api_login_logout api_login_logout.cpp -lcurl -lcurlpp
+g++ -o output_name file_name.cpp -lcurl -lcurlpp
 ```
 
 
 ## Execute the code
 ```bash
-./api_login_logout
+./output_name
 ```
